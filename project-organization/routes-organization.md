@@ -1,0 +1,31 @@
+Pages Needed
+- Sign In
+- Sign Up
+- Sign Out
+- User Profile
+- Edit User Profile
+- Create New Reflection
+- Edit Reflection
+- Reflections Page
+- Reflection Analytics
+- Home Page
+- Index Page
+
+Routes Needed
+- GET    /sign_in/new
+- POST   /sign_in
+- POST   /sign_out
+- GET    /sign_up/new
+- POST   /sign_up
+- GET    /users/:id
+- GET    /users/:id/edit
+- PUT    /users/:id/
+- DELETE /users/:id
+- GET    /users/:id/reflections/new
+- POST   /users/:id/reflections
+- GET    /users/:id/reflections/:id
+- GET    /users/:id/reflections/:id/edit
+- PUT    /users/:id/reflections/:id
+- GET    /users/:id/reflections
+- GET    /home
+- GET    /index
