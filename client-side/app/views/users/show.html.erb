@@ -1,0 +1,6 @@
+<h1>Welcome <%= current_user["name"] %> </h1>
+
+<a href="/home"><button>Home</button></a>
+<a href="/users/<%= current_user["id"] %>/edit"><button>Edit Profile</button></a>
+<a href="/users/<%= current_user["id"] %>/reflections/new"><button>New Reflection</button></a>
+<a href="/users/<%= current_user["id"] %>/reflections"><button>Reflections Recap</button></a>

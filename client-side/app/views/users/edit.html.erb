@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <h1>Edit User Profile</h1>
+
+  <form class="user-edit-form">
+    <div>Enter Name: <br><input type="text" name="user[name]" value="<%=current_user["name"]%>"></div><br>
+    <div>Enter Email: <br><input type="text" name="user[email]" value="<%=current_user["email"]%>"></div><br>
+    <div>Enter Username: <br><input type="text" name="user[username]" value="<%=current_user["username"]%>"></div><br>
+    <div>Enter Password: <br><input type="password" name="user[password]"  value="<%=current_user["password_digest"]%>"></div><br>
+    <div>Confirm Password: <br><input type="password" name="user[password_confirmation]" value="<%=current_user["password_digest"]%>"></div><br>
+    <input type="submit">
+  </form>
+</div>
